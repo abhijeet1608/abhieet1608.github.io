@@ -85,11 +85,7 @@ strong { font-weight: var(--fw-bold) }
 }
 
 #abc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 5em;
-    border: none;
 }
 
 
