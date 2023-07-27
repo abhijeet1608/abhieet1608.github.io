@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <title>Abhijeet Thube Portfolio</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Hi, I am <strong>Abhijeet Thube</strong></h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src="img/abhijeetpicture3.jpg" alt="a picture of abhijeet smiling" class="intro__img">
+        </section>
+
+        <!--Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Game Design + Development</h3>
+                    <p>As a skilled game designer and developer, I have crafted immersive worlds, developed compelling characters, and designed seamless gameplay mechanics to captivate players. 
+                        Embracing innovation and fostering collaborative environments, my passion lies in creating unforgettable gaming experiences that push the boundaries of interactive entertainment.</p>
+                </div> <!--service -->
+                
+                <div class="service">
+                    <h3>Full Stack Development</h3>
+                    <p>As a full-stack developer, I have honed my skills in both front-end and back-end technologies, crafting user-friendly interfaces and robust server-side functionalities. 
+                        With a passion for innovation and a commitment to collaborative teamwork, I strive to create exceptional web applications that deliver seamless and engaging user experiences.</p>
+                </div> <!--service -->
+                
+                <div class="service">
+                    <h3>DataScience/Machine Learning</h3>
+                    <p>As a data scientist and machine learning enthusiast, I have immersed myself in the world of data analysis, predictive modeling, and AI-driven solutions. 
+                        From data wrangling and feature engineering to building sophisticated machine learning algorithms, my passion lies in extracting meaningful insights and creating intelligent systems that drive informed decision-making and foster innovation. Embracing cutting-edge techniques and collaborative teamwork, I am dedicated to crafting data-driven solutions that make a positive impact across diverse industries.</p>
+                </div> <!--service -->
+            </div> <!--services-->
+            
+            <a href="#work" class="btn">My Work</a>
+            <button class="btn" id="abc" onclick="showJoke()">Programmer Joke</button>
+            <div>
+                <div class="joke-content">
+                  
+            </div>
+        </section>
+
+        <!--About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer and Developer studying at Clemson University</p>
+            
+            <div class="about-me__body">
+                <p>I am a highly knowledgeable professional with a computer science degree, renowned for my strong leadership skills and a natural talent for problem-solving and critical thinking. My expertise spans a wide array of programming languages, including Python, Java, JavaScript (Node.js, React.js), and C++, which I adeptly utilize to create innovative solutions and robust applications. From crafting REST APIs to managing web and Android applications, my extensive knowledge in development and management ensures seamless and efficient project execution.</p>
+                <p>Furthermore, my experience extends to cloud systems and Linux scripting, enabling me to harness the power of cloud technologies and streamline workflows with automated scripts. I approach every challenge with enthusiasm and dedication, always striving to exceed expectations and deliver high-quality results. With a passion for staying at the forefront of technology, I am eager to continue my journey of exploration and innovation in the ever-evolving world of computer science.</p>
+            </div>
+            
+            <img src="img/abhijeetpicture6.jpg" alt="Abhijeet leaning against a wall" class="about-me__img">
+         </section>
+
+          <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://github.com/abhijeet1608" class="portfolio__item">
+                    <img src="img/fullstacklogo.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://github.com/abhijeet1608" class="portfolio__item">
+                    <img src="img/datasciencelogo.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://github.com/abhijeet1608" class="portfolio__item">
+                    <img src="img/Machinelearninglogo.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://github.com/abhijeet1608" class="portfolio__item">
+                    <img src="img/ailogo.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="https://github.com/abhijeet1608" class="portfolio__item">
+                    <img src="img/aws-logo-square.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://github.com/abhijeet1608" class="portfolio__item">
+                    <img src="img/flutter.png" alt="" class="portfolio__img">
+                </a>
+                
+            </div>
+        </section>
+
+     <!--Contact Me Form
+        <section>
+            <h2>Contact Me </h2>
+  
+            <form action="/submit" method="post">
+              <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="firstname" required>
+              <br>
+              <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lastname" required>
+              <br>
+              <label for="email">Email ID:</label>
+              <input type="email" id="email" name="emailid" required>
+              <br>
+              <input class="btn" type="submit" value="Submit">
+            </form>
+        </section> -->  
+
+          <!-- Footer -->
+          <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:athube@g.clemson.edu" class="footer__link">athube@g.clemson.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/abhijeet_thube/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/abhijeet-thube/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/abhijeet1608">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
