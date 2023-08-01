@@ -90,6 +90,7 @@ strong { font-weight: var(--fw-bold) }
 
 #abc {
     margin-top: 5em;
+    border: none;
 }
 
 
